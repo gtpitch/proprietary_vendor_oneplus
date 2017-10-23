@@ -344,7 +344,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     IFAAService \
-    dashd
+    dashd \
+    GoogleCamera
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
